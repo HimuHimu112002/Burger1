@@ -78,6 +78,12 @@
     .footer{
         margin-top: 50px;
     }
+    .navbar-toggler{
+        margin: auto;
+    }
+    .navbar-nav .nav-item{
+        margin: auto;
+    }
 }
 @media(min-width:768px) and (max-width:991px){
     .banner p{
@@ -137,6 +143,9 @@
     .footer_icon4{
         top: 71%;
         left: 42%;
+    }
+    .top_header .logo{
+        margin: auto;
     }
 }
 @media(min-width:320px) and (max-width:767px){

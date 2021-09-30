@@ -13,6 +13,7 @@ font-family: 'Bebas Neue', cursive;
 .top_header, .header_content{
     display: flex;
     justify-content: space-between;
+    margin-right: 37px;
 }
 .top_header img{
     width: 70%;
@@ -43,7 +44,7 @@ font-family: 'Bebas Neue', cursive;
 .navbar-nav .nav-item .nav-link{
     font-size: 15px;
     letter-spacing: 1px;
-    margin-right: 50px;
+    margin-right: 25px;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -73,6 +74,9 @@ font-family: 'Bebas Neue', cursive;
 .banner_img{
     margin-top: -50px;
     position: relative;
+}
+.banner_img img{
+    width: 100%;
 }
 .position_div{
     width: 20%;
@@ -261,9 +265,7 @@ font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     font-family: 'Alfa Slab One', cursive;
 }
-.form_padding{
-    margin-top:100px;
-}
+
 form input:focus{
     box-shadow: none !important;
 }
