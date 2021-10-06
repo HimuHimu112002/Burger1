@@ -18,6 +18,11 @@
         font-size: 18px;
     }
 }
+@media(min-width:320px) and (max-width:575px){
+    .header_content{
+        display: none;
+    }
+}
 @media(min-width:426px) and (max-width:575px){
     .banner h1{
         font-size: 90px;
@@ -72,17 +77,14 @@
     }
 }
 @media(min-width:320px) and (max-width:767px){
-    .position_img_1, .position_img_2, .position_img_3{
-        display: none;
-    }
-    .footer{
-        margin-top: 50px;
-    }
     .navbar-toggler{
         margin: auto;
     }
     .navbar-nav .nav-item{
         margin: auto;
+    }
+    .footer_content2 {
+        text-align: start;
     }
 }
 @media(min-width:768px) and (max-width:991px){
@@ -98,17 +100,6 @@
         top: 92%;
         left: 50%;
     }
-    .position_img_1{
-        width: 25%;
-    }
-    .position_img_2{
-        width: 15%;
-        top: 80%;
-        left: 10%;
-    }
-    .position_img_3{
-        width: 25%;
-    }
     .burger3_img{
         top: 0;
     }
@@ -122,98 +113,5 @@
     .owl-dots{
         top: 90%;
         left: 50%;
-    }
-}
-@media(min-width:320px) and (max-width:575px){
-    .header_content{
-        display: none;
-    }
-    .footer_icon1{
-        top: 71%;
-        left: 8%;
-    }
-    .footer_icon2{
-        top: 71%;
-        left: 20%;
-    }
-    .footer_icon3{
-        top: 71%;
-        left: 31%;
-    }
-    .footer_icon4{
-        top: 71%;
-        left: 42%;
-    }
-    .top_header .logo{
-        margin: auto;
-    }
-}
-@media(min-width:320px) and (max-width:767px){
-    .footer_icon1{
-        top: 71%;
-        left: 8%;
-    }
-    .footer_icon2{
-        top: 71%;
-        left: 20%;
-    }
-    .footer_icon3{
-        top: 71%;
-        left: 31%;
-    }
-    .footer_icon4{
-        top: 71%;
-        left: 42%;
-    }
-}
-@media(min-width:600px) and (max-width:767px){
-    .footer_icon1{
-        top: 71%;
-        left: 17%;
-    }
-    .footer_icon2{
-        top: 71%;
-        left: 22%;
-    }
-    .footer_icon3{
-        top: 71%;
-        left: 27%;
-    }
-    .footer_icon4{
-        top: 71%;
-        left: 32%;
-    }
-}
-@media(min-width:768px) and (max-width:991px){
-    .footer_icon1{
-        right: 4%;
-        bottom: 5%;
-    }
-    .footer_icon2{
-        right: 8%;
-        bottom: 5%;
-    }
-    .footer_icon3{
-        right: 12%;
-        bottom: 5%;
-    }
-    .footer_icon4{
-        right: 16%;
-        bottom: 5%;
-    }
-}
-@media(min-width:320px) and (max-width:400px){
-    .position_div {
-        width: 30%;
-    }
-}
-@media(min-width:401px) and (max-width:480px){
-    .position_div {
-        width: 24%;
-    }
-}
-@media(min-width:768px) and (max-width:991px){
-    .position_div {
-        width: 28%;
     }
 }
