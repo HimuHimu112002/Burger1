@@ -162,9 +162,9 @@
         </div>
     </section>
 
-    <section class="slide shadow borderd">
+    <section class="slide">
             <div class="owl-carousel">
-                <div class="container p-5">
+                <div class="container p-5 shadow">
                     <div class="row">
                         <div class="col-md-6">
                             <h5>Discover</h5>
@@ -177,7 +177,7 @@
                     </div> 
                 </div> 
 
-                <div class="container p-5">
+                <div class="container p-5 shadow">
                     <div class="row">
                         <div class="col-md-6">
                             <h5>Discover</h5>
@@ -266,11 +266,19 @@
             </div>
         </div>
     </section>
+    <div class="preloader js-preloader flex-center">
+        <div class="dots">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>                                                          
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.preloadinator.min.js"></script>
     <script>
         $(document).ready(function(){
         $(".owl-carousel").owlCarousel({
@@ -284,5 +292,10 @@
         });
         });
     </script>
+    <script>
+        $('.js-preloader').preloadinator({
+          minTime: 3000
+        });
+      </script>
   </body>
 </html>
