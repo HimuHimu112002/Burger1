@@ -5,6 +5,25 @@ font-family: 'Bebas Neue', cursive;
      margin: 0;
      padding: 0;
 }
+.topbtn{
+    position: fixed;
+    bottom: 0;
+    right: 29px;
+    z-index: 1;
+    padding-bottom: 25px;
+    display: none;
+}
+.topbtn i{
+    color: #fff;
+    font-size: 27px;
+    background: #919190;
+    padding: 16px;
+    border-radius: 50%;
+    transition: .25s all ease-in-out;
+}
+.topbtn i:hover{
+    background: #f39c12;
+}
 .main_section{
     background-color: #FFC149;
     min-height: 100vh;
@@ -74,13 +93,22 @@ font-family: 'Bebas Neue', cursive;
 .banner_img{
     margin-top: -50px;
     position: relative;
+    
+}
+@keyframes banner{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 .banner_img img{
     width: 100%;
 }
 .position_div{
-    width: 110px;
-    height: 110px;
+    width: 109px;
+    height: 108px;
     padding: 10px;
     text-align: center;
     background-color: #BF2222;
@@ -88,9 +116,11 @@ font-family: 'Bebas Neue', cursive;
     border-radius: 50%;
     top: 65%;
     left: 30%;
+    animation: banner 3s infinite;
+    animation-direction: alternate;
 }
 .position_content{
-    padding: 15px 18px;
+    padding: 15px 15px;
     border-radius: 50%;
     border: 1px dashed white;
     margin-bottom: 15px;

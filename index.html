@@ -28,6 +28,9 @@
 
   </head>
   <body>
+    <div class="topbtn" id="topbtn">
+        <a href="#"><i class="fas fa-chevron-up"></i></a>
+    </div>
                                                         <!-- Header part start -->
     <section class="main_section">
         <div class="container pt-4 top_header_part">
@@ -295,6 +298,18 @@
     <script>
         $('.js-preloader').preloadinator({
           minTime: 3000
+        });
+
+
+        $(document).ready(function(){
+
+            $(window).scroll(function(){
+            if($(this).scrollTop() > 40){
+                 $('#topbtn').slideDown(400);
+            }else{
+                $('#topbtn').slideUp(400);
+            }
+        });
         });
       </script>
   </body>
