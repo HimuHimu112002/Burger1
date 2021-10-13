@@ -31,6 +31,17 @@
     <div class="topbtn" id="topbtn">
         <a href="#"><i class="fas fa-chevron-up"></i></a>
     </div>
+    <div class="indicator" id="ind">
+        <i class="fas fa-user" id="#i"></i>
+      </div>
+    <div class="social-fixed">
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+    </div>
                                                         <!-- Header part start -->
     <section class="main_section">
         <div class="container pt-4 top_header_part">
@@ -296,6 +307,13 @@
         });
     </script>
     <script>
+        const indicator = document.getElementById('ind');
+
+        indicator.addEventListener('click', ()=>{
+        document.body.classList.toggle('java');
+        })
+
+        // back to
         $('.js-preloader').preloadinator({
           minTime: 3000
         });
