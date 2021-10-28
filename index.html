@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="media.css">
 
   </head>
@@ -147,8 +148,8 @@
         <div class="container">
             <div class="row">
                 <div class="co-md-10 m-auto text-center">
-                    <h5>Always Tasty Burger</h5>
-                    <h1>Choose & Enjoy</h1>
+                    <h5 class="wow bounceInRight">Always Tasty Burger</h5>
+                    <h1 class="wow flipOutX">Choose & Enjoy</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, libero et voluptas nulla quaerat repellendus, aspernatur commodi asperiores a, corrupti pariatur. A ipsum iure eius veniam dolorum, laudantium ullam eum eos  accusantium sint?</p>
 
                 </div>
@@ -213,7 +214,7 @@
                     <div class="row form_row">
                         <div class="col-md-8 m-auto text-center">
                             <h5>Reservation</h5>
-                            <h1>Book your table</h1>
+                            <h1 class="wow flipOutX">Book your table</h1>
                         </div>
                     <form action="" class="pt-5">
                             <div class="row">
@@ -315,7 +316,7 @@
 
         // back to
         $('.js-preloader').preloadinator({
-          minTime: 3000
+          minTime: 1000
         });
 
 
@@ -330,5 +331,20 @@
         });
         });
       </script>
+
+<script src="js/wow.min.js"></script>
+<script>
+  wow = new WOW(
+    {
+      boxClass:     'wow',      // default
+      animateClass: 'animated', // default
+      offset:       0,          // default
+      mobile:       false,             
+      live:         true        // default
+    }
+  )
+wow.init();
+</script>
+<script src="js/css3-animate-it.js"></script>
   </body>
 </html>
