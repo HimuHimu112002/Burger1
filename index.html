@@ -281,19 +281,12 @@
             </div>
         </div>
     </section>
-    <div class="preloader js-preloader flex-center">
-        <div class="dots">
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-        </div>
-      </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>                                                          
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.preloadinator.min.js"></script>
+
     <script>
         $(document).ready(function(){
         $(".owl-carousel").owlCarousel({
@@ -315,11 +308,7 @@
         })
 
         // back to
-        $('.js-preloader').preloadinator({
-          minTime: 1000
-        });
-
-
+       
         $(document).ready(function(){
 
             $(window).scroll(function(){
